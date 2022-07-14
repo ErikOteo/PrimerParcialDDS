@@ -1,4 +1,4 @@
-# BuscadorDeCanciones - PrimerParcialDDS
+# BuscadorDeCanciones - Primer Parcial DDS
 _Evaluación Práctica - Diseño de Sistemas - Universidad Tecnológica Nacional_
 
 
