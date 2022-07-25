@@ -1,4 +1,4 @@
-package org.example;
+package primer.parcial.dds;
 
 import static org.junit.Assert.assertTrue;
 

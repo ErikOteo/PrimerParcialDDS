@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Implementacion_Parcial_DDS/Parcial_DDS.iml" filepath="$PROJECT_DIR$/Implementacion_Parcial_DDS/Parcial_DDS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PrimerParcialDDS.iml" filepath="$PROJECT_DIR$/.idea/PrimerParcialDDS.iml" />
+    </modules>
+  </component>
+</project>
