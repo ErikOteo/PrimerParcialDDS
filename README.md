@@ -16,7 +16,7 @@ Sistema destinado a la busqueda de canciones a traves de un servicio externo con
 ## Alumnos 📌
 
 * **Lucas Esposito**           - *172.274-6*   - [EspositoLucas](https://github.com/EspositoLucas)
-* **A completar** - **   - []()
+* **Erik Leonel Otero** - *1691557*   - []()
 
 
 
