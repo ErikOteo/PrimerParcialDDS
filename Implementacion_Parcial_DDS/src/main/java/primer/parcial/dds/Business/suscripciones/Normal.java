@@ -1,5 +1,8 @@
 package primer.parcial.dds.Business.suscripciones;
 
+import primer.parcial.dds.Business.canciones.Cancion;
+import primer.parcial.dds.Security.sistema.Usuario;
+
 public class Normal extends Suscripcion {
     public int modo=2;
 
@@ -10,8 +13,7 @@ public class Normal extends Suscripcion {
                 return new Premium();
             }else{System.out.println("No se puede cambiar la suscripcion, no hay credito"); }
         } else if (unModo.getInt() == 2) {
-            System.out.println("Ya estabas en modo Normal... Te recomendamos un oculista");
-            System.out.println("Dr. Lucas Giorgio                                  Tel. 4855-4821");
+            System.out.println("Ya estaba en modo Normal");
         } else {
             return new SinSuscripcion();
         }
@@ -19,10 +21,10 @@ public class Normal extends Suscripcion {
     }
 
     @Override
-    public void votarPelicula(String nombrePeli, int nota, Usuario user) {
-        Pelicula peli = new Pelicula();
-        peli.darNombreYnota(nombrePeli,nota);
-        user.agregarVotadas(peli);
+    public void votarCancion(String nombrePeli, int nota, Usuario user) {
+        Cancion cancion = new Cancion();
+        cancion.darNombreYnota(nombrePeli,nota);
+        user.agregarVotadas(cancion);
 
     }
     @Override

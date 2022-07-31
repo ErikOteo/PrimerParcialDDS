@@ -1,7 +1,8 @@
 package primer.parcial.dds.Security.sistema;
 
+import primer.parcial.dds.Business.busquedas.Anio;
+import primer.parcial.dds.Business.busquedas.Artista;
 import primer.parcial.dds.Business.busquedas.PorGenero;
-import primer.parcial.dds.Business.busquedas.TopGlobal;
 import primer.parcial.dds.Business.canciones.PaqueteCanciones;
 import primer.parcial.dds.Business.suscripciones.Normal;
 import primer.parcial.dds.Business.suscripciones.Premium;
@@ -10,7 +11,6 @@ import primer.parcial.dds.Business.suscripciones.Suscripcion;
 
 import java.io.IOException;
 import java.util.InputMismatchException;
-import java.util.List;
 import java.util.Scanner;
 
 public class MenuInicio {
@@ -99,7 +99,7 @@ public class MenuInicio {
                         System.out.println("Ingrese el nombre de la Cancion que desea votar ");
                         String nombreCancion = str.nextLine();
                         int nota = sn.nextInt();
-                        usuarioConsumidor.miSuscripcion().votarPelicula(nombreCancion,nota,usuarioConsumidor);
+                        usuarioConsumidor.miSuscripcion().votarCancion(nombreCancion,nota,usuarioConsumidor);
                         break;
                     case 5:
                         usuarioConsumidor.mostrarCancionesCalificadas();
@@ -148,13 +148,13 @@ public class MenuInicio {
             try {
                 switch (opcion) {
                     case 1:
-                        TopGlobal.realizarBusqueda();
+                        Artista.realizarBusqueda();
                         break;
                     case 2:
                         PorGenero.realizarBusqueda();
                         break;
                     case 3:
-
+                        Anio.realizarBusqueda();
                         break;
                     default:
                         System.out.println("Solo números entre 1 y 3");
@@ -197,7 +197,7 @@ public class MenuInicio {
                         System.out.println("Solo números entre 1 y 3");
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Debes insertar un número");
+                System.out.println("Debe insertar un número");
                 scn.next();
             }
         }

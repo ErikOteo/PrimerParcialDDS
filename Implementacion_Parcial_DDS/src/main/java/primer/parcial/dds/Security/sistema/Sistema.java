@@ -49,7 +49,7 @@ public class Sistema {
 
 
     public boolean validarIngreso(String usuarioProvisorio, String contrasenaProvisoria) {
-        if (listaUsuarios.stream().anyMatch(usuario -> usuario.getNombre().equals(usuarioProvisorio) && usuario.getContra().equals(contrasenaProvisoria))){
+        if (listaUsuarios.stream().anyMatch(usuario -> usuario.getNombre().equals(usuarioProvisorio) && usuario.getContrasenia().equals(contrasenaProvisoria))){
             return true;}
         else{
             if(listaUsuarios.stream().anyMatch(usuario -> usuario.getNombre().equals(usuarioProvisorio))){

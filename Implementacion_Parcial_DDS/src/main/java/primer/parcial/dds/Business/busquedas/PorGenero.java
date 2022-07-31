@@ -15,7 +15,6 @@ public class PorGenero extends Busqueda {
         System.out.println("Ingrese Un Genero segun ID");
         Integer miGenero = scn.nextInt();
         ListaCanciones miLista = miApi.obtenerCancionesPorGenero(miGenero);
-//        Ruleta miRuleta = Ruleta.getInstancia();
-//        (miRuleta.darAlAzar(miLista)).mostrarCancion();
+
     }
 }

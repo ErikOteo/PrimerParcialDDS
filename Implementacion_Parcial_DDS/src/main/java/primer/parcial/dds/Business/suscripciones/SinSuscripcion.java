@@ -16,8 +16,7 @@ public class SinSuscripcion extends Suscripcion{
                 return new Normal();
             }else{System.out.println("No se puede cambiar la suscripcion, no hay credito"); }
         } else {
-            System.out.println("Ya estabas en modo Sin Suscripcion... Te recomendamos un oculista");
-            System.out.println("Dr. Lucas Giorgio                                  Tel. 4855-4821");
+            System.out.println("Ya estaba en modo Sin Suscripcion");
         }
         return unModo;
     }
