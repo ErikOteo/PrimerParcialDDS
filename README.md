@@ -1,9 +1,9 @@
-# BuscadorDeCanciones - Primer Parcial DDS
+# Cinema Service- Primer Parcial DDS
 _Evaluación Práctica - Diseño de Sistemas - Universidad Tecnológica Nacional_
 
 
 ## Descripción 📖
-Sistema destinado a la busqueda de canciones a traves de un servicio externo con el fin de que un usuario pueda obtener una cancion deseada
+Sistema destinado a  destinado a la compra y reserva de entradas de un cine
 
 
 ## Información complementaria ⚙️
