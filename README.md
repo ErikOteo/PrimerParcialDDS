@@ -3,7 +3,7 @@ _Evaluación Práctica - Diseño de Sistemas - Universidad Tecnológica Nacional
 
 
 ## Descripción 📖
-Sistema destinado a  destinado a la compra y reserva de entradas de un cine
+Sistema destinado a la compra y reserva de entradas de un cine utilizando un serciio externo (API)
 
 
 ## Información complementaria ⚙️
