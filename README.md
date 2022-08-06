@@ -16,7 +16,7 @@ Sistema destinado a la reserva de entradas de un cine utilizando un servicio ext
 ## Alumnos 📌
 
 * **Lucas Esposito**           - *172.274-6*   - [EspositoLucas](https://github.com/EspositoLucas)
-* **Erik Leonel Otero** - *1691557*   - []()
+* **Erik Leonel Otero** - *1691557*   - [OteroErik](https://github.com/ErikOteo)
 
 
 
